@@ -1,0 +1,9 @@
+branch-defaults:
+  master:
+    environment: zipkin
+deploy:
+  artifact: deploy/zipkin.zip
+global:
+  application_name: zipkin
+  default_ec2_keyname: dplnp-eb-team
+  default_platform: Docker 1.11.1

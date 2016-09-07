@@ -1,0 +1,12 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name" : "openzipkin/zipkin:1.8.4",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "9411"
+    }
+  ]
+}
